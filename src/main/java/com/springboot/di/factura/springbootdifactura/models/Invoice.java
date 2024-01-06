@@ -38,5 +38,7 @@ public class Invoice {
         Item = item;
     }
 
-    
+    public int getTotal(){
+        return 0;
+    }
 }
