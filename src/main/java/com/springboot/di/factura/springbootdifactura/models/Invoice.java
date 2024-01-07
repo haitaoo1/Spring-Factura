@@ -31,7 +31,7 @@ public class Invoice {
     public void setDescription(String description) {
         this.description = description;
     }
-    public List<Item> getItem() {
+    public List<Item> getItem() { 
         return Item;
     }
     public void setItem(List<Item> item) {

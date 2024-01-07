@@ -13,7 +13,7 @@ import com.springboot.di.factura.springbootdifactura.models.Product;
 @Configuration
 @PropertySource(value = "classpath:data.properties", encoding = "UTF-8")
 public class AppConfig {
-
+//
     //Ahora con Bean ya es un componente y se puede inyectar
     @Bean
     List <Item> itemsInvoice(){
