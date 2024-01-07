@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.springboot.di.factura.springbootdifactura.models.Invoice;
 import org.springframework.web.bind.annotation.GetMapping;
 
-
+ 
 @RestController
 @RequestMapping("/invoices")
 public class InvoiceController {
